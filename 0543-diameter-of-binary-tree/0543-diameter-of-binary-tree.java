@@ -18,7 +18,6 @@ class Solution {
 
     public int diameterOfBinaryTree(TreeNode root) {
         if(root == null) return 0;
-        ArrayList<Integer> list = new ArrayList<>();
         int temp = lmao(root);
         return result;
     }
