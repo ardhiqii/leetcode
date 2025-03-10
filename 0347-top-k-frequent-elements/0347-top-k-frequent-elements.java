@@ -1,25 +1,30 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-        HashMap<Integer,Integer> count = new HashMap<>();
-        int[] result = new int[k];
-        PriorityQueue<HashMap.Entry<Integer,Integer>> pq = new PriorityQueue<>((a,b) -> b.getValue() - a.getValue());
+        HashMap<Integer,Integer> hm = new HashMap<>();
+        for(int n : nums){
+            hm.put(n,hm.getOrDefault(n,0)+1);
+        }
 
-        for(int i = 0; i < nums.length; i++){
-            int curr = nums[i];
-            if(count.containsKey(curr)){
-                int value = count.get(curr) + 1;
-                count.put(curr,value);
-            }else{
-                count.put(curr,1);
+        ArrayList<Integer>[] bucket = new ArrayList[nums.length + 1];
+        for(int key: hm.keySet()){
+            int freq = hm.get(key);
+            if(bucket[freq] == null){
+                bucket[freq] = new ArrayList<>();
             }
-        }
-        for(Map.Entry c: count.entrySet()){
-            pq.add(c);            
-        }
-        for(int i = 0; i < k; i++){
-            result[i] = pq.poll().getKey();
+            bucket[freq].add(key);
         }
 
+        int[] result = new int[k];
+        int idx = 0;
+        for(int i = bucket.length - 1; i>=0; i--){
+            if(bucket[i] != null){
+                for(int num : bucket[i]){
+                    result[idx++] = num;
+                    if(idx == k) return result;
+                }   
+            }
+            
+        }
         return result;
     }
 }
