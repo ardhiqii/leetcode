@@ -7,7 +7,6 @@ class Solution {
             HashSet<Character> row = new HashSet<>();
             HashSet<Character> col = new HashSet<>();
             if(i%3 == 0 && i> 0){
-                System.out.println();
                 grid1.clear();
                 grid2.clear();
                 grid3.clear();
@@ -21,19 +20,9 @@ class Solution {
                         if(!grid1.add(currRow)) return false;
                     }else if(j<=5){
                         if(!grid2.add(currRow)) return false;
-                        System.out.printf("| %d %d %c |",i,j,currRow);
                     }else{
                         if(!grid3.add(currRow)) return false;
                     }
-
-
-                    
-                    // if(j < 6 && j >=3){
-                    //     if(!grid2.add(currRow)) return false;
-                    // }
-                    // if(j < 9 && j >=6){
-                    //     if(!grid3.add(currRow)) return false;
-                    // }
                 }
                 if(currCol != '.'){
                     if(!col.add(currCol)) return false;
