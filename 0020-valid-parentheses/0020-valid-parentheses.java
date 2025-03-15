@@ -20,7 +20,8 @@ class Solution {
                 if(peek == partner){
                     stack.pop();
                 }else{
-                    stack.push(curr);
+                    // stack.push(curr);
+                    return false;
                 }
             }
         }
