@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/ardhiqii/leetcode/tree/master/0020-valid-parentheses) |
 | [0572-subtree-of-another-tree](https://github.com/ardhiqii/leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
 |  |
@@ -105,4 +106,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ardhiqii/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/ardhiqii/leetcode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
