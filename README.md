@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/ardhiqii/leetcode/tree/master/0036-valid-sudoku) |
 | [0128-longest-consecutive-sequence](https://github.com/ardhiqii/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0347-top-k-frequent-elements](https://github.com/ardhiqii/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [1500-count-largest-group](https://github.com/ardhiqii/leetcode/tree/master/1500-count-largest-group) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -110,4 +111,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ardhiqii/leetcode/tree/master/0020-valid-parentheses) |
+## Math
+|  |
+| ------- |
+| [1500-count-largest-group](https://github.com/ardhiqii/leetcode/tree/master/1500-count-largest-group) |
 <!---LeetCode Topics End-->
