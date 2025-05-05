@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/ardhiqii/leetcode/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/ardhiqii/leetcode/tree/master/0036-valid-sudoku) |
+| [0078-subsets](https://github.com/ardhiqii/leetcode/tree/master/0078-subsets) |
 | [0128-longest-consecutive-sequence](https://github.com/ardhiqii/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ardhiqii/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0238-product-of-array-except-self](https://github.com/ardhiqii/leetcode/tree/master/0238-product-of-array-except-self) |
@@ -117,4 +118,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/ardhiqii/leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/ardhiqii/leetcode/tree/master/1500-count-largest-group) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/ardhiqii/leetcode/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/ardhiqii/leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
