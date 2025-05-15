@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/ardhiqii/leetcode/tree/master/0020-valid-parentheses) |
 | [0572-subtree-of-another-tree](https://github.com/ardhiqii/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/ardhiqii/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Hash Function
 |  |
 | ------- |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/ardhiqii/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/ardhiqii/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/ardhiqii/leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/ardhiqii/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -130,4 +132,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/ardhiqii/leetcode/tree/master/0078-subsets) |
+## Dynamic Programming
+|  |
+| ------- |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/ardhiqii/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+## Greedy
+|  |
+| ------- |
+| [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/ardhiqii/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 <!---LeetCode Topics End-->
