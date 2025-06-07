@@ -33,6 +33,5 @@ class Solution {
         dfs(root.left,maxSoFar);
         dfs(root.right,maxSoFar);
         path.remove(path.size() - 1);
-        return;
     }
 }
