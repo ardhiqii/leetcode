@@ -15,33 +15,24 @@
  */
 class Solution {
     List<Integer> path = new ArrayList<>();
-    List<Integer> maxPath = new ArrayList<>();
     int count = 0;
     public int goodNodes(TreeNode root) {
-        dfs(root);
+        int maxSoFar = root.val;
+        dfs(root,maxSoFar);
         return count;
     }
-    private void dfs(TreeNode root){
+    private void dfs(TreeNode root, int maxSoFar){
         if(root == null){
             return;
         }
-        if(maxPath.isEmpty()){
-            maxPath.add(root.val);
+        if(root.val >= maxSoFar){
             count++;
-        }else if(root.val >= maxPath.get(maxPath.size()-1)){
-            maxPath.add(root.val);
-            count++;
+            maxSoFar = root.val;
         }
         path.add(root.val);
-        dfs(root.left);
-        dfs(root.right);
-        
+        dfs(root.left,maxSoFar);
+        dfs(root.right,maxSoFar);
         path.remove(path.size() - 1);
-        int lastMax = maxPath.get(maxPath.size()-1);
-        if(lastMax == root.val){
-            maxPath.remove(maxPath.size()-1);
-        }
-    
         return;
     }
 }
