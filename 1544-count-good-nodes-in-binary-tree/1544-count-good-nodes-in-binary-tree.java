@@ -14,7 +14,6 @@
  * }
  */
 class Solution {
-    List<Integer> path = new ArrayList<>();
     int count = 0;
     public int goodNodes(TreeNode root) {
         int maxSoFar = root.val;
@@ -29,9 +28,8 @@ class Solution {
             count++;
             maxSoFar = root.val;
         }
-        path.add(root.val);
         dfs(root.left,maxSoFar);
         dfs(root.right,maxSoFar);
-        path.remove(path.size() - 1);
+        return;
     }
 }
