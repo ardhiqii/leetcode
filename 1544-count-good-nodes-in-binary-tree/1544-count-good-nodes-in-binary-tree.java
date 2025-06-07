@@ -35,13 +35,13 @@ class Solution {
         path.add(root.val);
         dfs(root.left);
         dfs(root.right);
-        if(path.size() > 1){
-            path.remove(path.size() - 1);
-            int lastMax = maxPath.get(maxPath.size()-1);
-            if(lastMax == root.val){
-                maxPath.remove(maxPath.size()-1);
-            }
+        
+        path.remove(path.size() - 1);
+        int lastMax = maxPath.get(maxPath.size()-1);
+        if(lastMax == root.val){
+            maxPath.remove(maxPath.size()-1);
         }
+    
         return;
     }
 }
