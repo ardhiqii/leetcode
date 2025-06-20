@@ -12,6 +12,8 @@ class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int extra = 0;
         String raw = "";
+        ListNode currNode = new ListNode();
+        ListNode result = currNode;
         while(l1 != null || l2 != null){
             int sum = 0;
             if(l1 != null && l2 != null ){
@@ -33,18 +35,13 @@ class Solution {
                 extra = 1;
                 sum = sum % 10;
             }
-            raw += String.valueOf(sum);
-        }
-        if(extra != 0){
-            raw += String.valueOf(extra);
-        }
-        ListNode currNode = new ListNode();
-        ListNode result = currNode;
-        for(int i = 0; i < raw.length(); i++){
-            int curr = Integer.parseInt(String.valueOf(raw.charAt(i)));
-            ListNode node = new ListNode(curr);
+            ListNode node = new ListNode(sum);
             currNode.next = node;
             currNode = node;
+        }
+        if(extra != 0){
+            ListNode node = new ListNode(extra);
+            currNode.next = node;
         }
         return result.next;
 
