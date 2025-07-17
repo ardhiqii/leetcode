@@ -7,7 +7,7 @@ class Solution {
             i++;
             j++;
         }
-        System.out.println(Arrays.toString(nums1));
+        // System.out.println(Arrays.toString(nums1));
         Arrays.sort(nums1);
     }
 }
