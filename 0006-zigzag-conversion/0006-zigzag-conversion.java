@@ -1,17 +1,21 @@
 class Solution {
     public String convert(String s, int numRows) {
         if(numRows == 1) return s;
-        ArrayList<ArrayList<Character>> rows = new ArrayList<>();
+        ArrayList<ArrayList<String>> rows = new ArrayList<>();
         int row_index = 0;
         boolean last = false;
         String result = "";
         int i = 0;
         while(row_index < numRows && row_index >=0 && i < s.length()){
             if(i < numRows){
-                rows.add(new ArrayList<Character>());
+                ArrayList<String> newValue = new ArrayList<>();
+                newValue.add(""); 
+                rows.add(newValue);
             }
-            ArrayList curr = rows.get(row_index);
-            curr.add(s.charAt(i));
+            ArrayList<String> curr = rows.get(row_index);
+            String value = curr.get(0);
+            value+= s.charAt(i);
+            curr.set(0,value);
             if(last){
                 row_index--;
             }else{
@@ -28,10 +32,8 @@ class Solution {
         }
         
         for(i =0; i < rows.size();i++){
-            ArrayList<Character> curr = rows.get(i);
-            for(Character c : curr){
-                result+=c;
-            }
+            ArrayList<String> curr = rows.get(i);
+            result += curr.get(0);
         }
         return result;
     }
