@@ -2,7 +2,6 @@ class Solution {
     public int myAtoi(String s) {
         if(s.length() == 0) return 0;
         int i = 0;
-        String res = "";
         for(i = 0; i < s.length(); i++ ){
             char curr = s.charAt(i);
             if(curr == ' ')continue;
@@ -14,13 +13,14 @@ class Solution {
             }
         }
         if(i >= s.length()) return 0;
-        boolean positive = true;
+        int sign = 1;
         if(s.charAt(i) == '-'){
-            positive = false;
+            sign = -1;
             i++;
         }else if(s.charAt(i) == '+'){
             i++;
         }
+
         for(i = i; i< s.length();i++){
             char curr = s.charAt(i);
             if(curr == '0')continue;
@@ -31,27 +31,19 @@ class Solution {
                 break;
             }
         }
+        long res = 0;
         for(i=i; i < s.length(); i++){
             char curr = s.charAt(i);
             if(!Character.isDigit(curr)){
                 break;
             }else{
-                res+=curr;
+                int digit = curr - '0';
+                res = res * 10 + digit;
             }
+
+            if(sign * res <= Integer.MIN_VALUE) return Integer.MIN_VALUE;
+            if(sign * res >= Integer.MAX_VALUE) return Integer.MAX_VALUE;
         }
-        if(res.length() == 0) return 0;
-        int result = 0;
-        
-        try{
-            result = Integer.parseInt(res);
-        }catch(Exception  e){
-            if(positive) return Integer.MAX_VALUE;
-            if(!positive) return Integer.MIN_VALUE;
-        }
-        
-        if(!positive){
-            result = result * -1;
-        }
-        return result;
+        return (int) (res * sign);
     }
 }
