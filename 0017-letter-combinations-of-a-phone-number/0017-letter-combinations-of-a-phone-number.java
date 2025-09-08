@@ -24,7 +24,6 @@ class Solution {
         };
         String letter = hm.get(digits.charAt(idx)); 
         if(idx_let >= letter.length()){
-            bete(idx+1,0,digits,hm,curr,res);
             return;
         }
         String newCurr = curr + letter.charAt(idx_let);
