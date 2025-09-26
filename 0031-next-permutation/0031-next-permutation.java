@@ -20,7 +20,9 @@ class Solution {
             }
         }
         if(idx == -1){
-            Arrays.sort(nums);
+            for(int i = 0; i < len+1;i++){
+                nums[i] = temp[i];
+            }
             return;
         }
         // System.out.println(Arrays.toString(temp));
