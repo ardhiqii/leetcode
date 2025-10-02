@@ -2,17 +2,10 @@ class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] result = {-1,-1};
         if(nums.length == 0) return result;
-        if(nums.length == 1){
-            int curr = nums[0];
-            if(curr == target){
-                return new int[] {0,0};
-            }else{
-                return result;
-            }
-        }
+        
         int idx = bs(nums,target);
         if(idx == -1)return result;
-        
+
         int start = idx;
         int last = idx;
         for(int i = idx; i >=0;i--){
