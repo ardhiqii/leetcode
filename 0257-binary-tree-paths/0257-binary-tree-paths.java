@@ -18,7 +18,6 @@ class Solution {
 
     public List<String> binaryTreePaths(TreeNode root) {
         dp(root,"");
-        System.out.println(arr);
         return arr;
     }
     private void dp(TreeNode root,String curr){
