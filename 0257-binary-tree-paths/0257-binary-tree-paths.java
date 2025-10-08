@@ -22,13 +22,13 @@ class Solution {
     }
     private void dp(TreeNode root,String curr){
         if(root == null)return;
-        String newString =curr + Integer.toString(root.val);
+        curr =curr + Integer.toString(root.val);
         if(root.left == null && root.right == null){
-            arr.add(newString);
+            arr.add(curr);
             return;
         }
-        newString += "->";
-        dp(root.left,newString);
-        dp(root.right,newString);
+        curr += "->";
+        dp(root.left,curr);
+        dp(root.right,curr);
     }
 }
