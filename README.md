@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/ardhiqii/leetcode/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/ardhiqii/leetcode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/ardhiqii/leetcode/tree/master/0088-merge-sorted-array) |
+| [0119-pascals-triangle-ii](https://github.com/ardhiqii/leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/ardhiqii/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ardhiqii/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0238-product-of-array-except-self](https://github.com/ardhiqii/leetcode/tree/master/0238-product-of-array-except-self) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/ardhiqii/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/ardhiqii/leetcode/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/ardhiqii/leetcode/tree/master/0070-climbing-stairs) |
+| [0119-pascals-triangle-ii](https://github.com/ardhiqii/leetcode/tree/master/0119-pascals-triangle-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/ardhiqii/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Greedy
 |  |
