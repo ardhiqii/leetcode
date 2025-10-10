@@ -23,10 +23,6 @@ class Solution {
         if(root == null){
             return;
         }
-        if(root.left == null && root.right == null){
-            arr.add(root.val);
-            return;
-        }
         dp(root.left);
         arr.add(root.val);
         dp(root.right);
