@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/ardhiqii/leetcode/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/ardhiqii/leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ardhiqii/leetcode/tree/master/0040-combination-sum-ii) |
+| [0066-plus-one](https://github.com/ardhiqii/leetcode/tree/master/0066-plus-one) |
 | [0078-subsets](https://github.com/ardhiqii/leetcode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/ardhiqii/leetcode/tree/master/0088-merge-sorted-array) |
 | [0119-pascals-triangle-ii](https://github.com/ardhiqii/leetcode/tree/master/0119-pascals-triangle-ii) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/ardhiqii/leetcode/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/ardhiqii/leetcode/tree/master/0012-integer-to-roman) |
+| [0066-plus-one](https://github.com/ardhiqii/leetcode/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/ardhiqii/leetcode/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/ardhiqii/leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/ardhiqii/leetcode/tree/master/0070-climbing-stairs) |
