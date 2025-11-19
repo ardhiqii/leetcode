@@ -6,7 +6,9 @@ class Solution {
             arr.add(nums[i]);
             if(arr.contains(value)) value*=2;
         }
-        if(arr.contains(value)) value*=2;
+        while(arr.contains(value)){
+            value*=2;
+        }
         return value;
     }
 }
