@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/ardhiqii/leetcode/tree/master/0067-add-binary) |
 | [0257-binary-tree-paths](https://github.com/ardhiqii/leetcode/tree/master/0257-binary-tree-paths) |
 | [0572-subtree-of-another-tree](https://github.com/ardhiqii/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/ardhiqii/leetcode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/ardhiqii/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Hash Function
 |  |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0067-add-binary](https://github.com/ardhiqii/leetcode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/ardhiqii/leetcode/tree/master/0078-subsets) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/ardhiqii/leetcode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -268,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/ardhiqii/leetcode/tree/master/0067-add-binary) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/ardhiqii/leetcode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ardhiqii/leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [3379-transformed-array](https://github.com/ardhiqii/leetcode/tree/master/3379-transformed-array) |
 ## Memoization
