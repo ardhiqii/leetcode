@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/ardhiqii/leetcode/tree/master/0067-add-binary) |
 | [0257-binary-tree-paths](https://github.com/ardhiqii/leetcode/tree/master/0257-binary-tree-paths) |
 | [0572-subtree-of-another-tree](https://github.com/ardhiqii/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0833-find-and-replace-in-string](https://github.com/ardhiqii/leetcode/tree/master/0833-find-and-replace-in-string) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/ardhiqii/leetcode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/ardhiqii/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Hash Function
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ardhiqii/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0238-product-of-array-except-self](https://github.com/ardhiqii/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/ardhiqii/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0833-find-and-replace-in-string](https://github.com/ardhiqii/leetcode/tree/master/0833-find-and-replace-in-string) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/ardhiqii/leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ardhiqii/leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/ardhiqii/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -128,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/ardhiqii/leetcode/tree/master/0036-valid-sudoku) |
 | [0128-longest-consecutive-sequence](https://github.com/ardhiqii/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0347-top-k-frequent-elements](https://github.com/ardhiqii/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0833-find-and-replace-in-string](https://github.com/ardhiqii/leetcode/tree/master/0833-find-and-replace-in-string) |
 | [1500-count-largest-group](https://github.com/ardhiqii/leetcode/tree/master/1500-count-largest-group) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ardhiqii/leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 ## Divide and Conquer
@@ -143,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/ardhiqii/leetcode/tree/master/0018-4sum) |
 | [0088-merge-sorted-array](https://github.com/ardhiqii/leetcode/tree/master/0088-merge-sorted-array) |
 | [0347-top-k-frequent-elements](https://github.com/ardhiqii/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0833-find-and-replace-in-string](https://github.com/ardhiqii/leetcode/tree/master/0833-find-and-replace-in-string) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ardhiqii/leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/ardhiqii/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 ## Heap (Priority Queue)
