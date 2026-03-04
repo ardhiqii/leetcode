@@ -1,12 +1,15 @@
 class Solution {
     public String countAndSay(int n) {
         HashMap<Integer,String> hs = new HashMap<>();
-        return huh(n);
+        hs.put(1,"1");
+        hs.put(2,"11");
+        return huh(n, hs);
     }
-    String huh(int n){
-        if(n == 1) return "1";
-        if(n == 2) return "11";
-        String str = huh(n-1);
+    String huh(int n,HashMap<Integer,String>hs){
+        if(hs.containsKey(n)){
+            return hs.get(n);
+        }
+        String str = huh(n-1,hs);
         String val = "";
         int i = 1;
         int cnt = 1;
@@ -25,6 +28,8 @@ class Solution {
         }
         val+=Integer.toString(cnt);
         val+=curr;
+        hs.put(n,val);
+
         return val;
     }
 }
