@@ -9,8 +9,8 @@ class Solution {
         if(hs.containsKey(n)){
             return hs.get(n);
         }
+        StringBuilder val = new StringBuilder();
         String str = huh(n-1,hs);
-        String val = "";
         int i = 1;
         int cnt = 1;
         char curr = str.charAt(0);
@@ -19,17 +19,18 @@ class Solution {
             if(curr == temp){
                 cnt++;
             }else{
-                val+=Integer.toString(cnt);
-                val+=curr;
+                val.append(Integer.toString(cnt));
+                val.append(curr);
                 curr = str.charAt(i);
                 cnt = 1;
             }
             i++;
         }
-        val+=Integer.toString(cnt);
-        val+=curr;
-        hs.put(n,val);
+        val.append(Integer.toString(cnt));
+        val.append(curr);
+        String r = val.toString();
+        hs.put(n,r);
 
-        return val;
+        return r;
     }
 }
