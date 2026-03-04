@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ardhiqii/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0833-find-and-replace-in-string](https://github.com/ardhiqii/leetcode/tree/master/0833-find-and-replace-in-string) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/ardhiqii/leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1582-special-positions-in-a-binary-matrix](https://github.com/ardhiqii/leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/ardhiqii/leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/ardhiqii/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/ardhiqii/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/ardhiqii/leetcode/tree/master/0036-valid-sudoku) |
+| [1582-special-positions-in-a-binary-matrix](https://github.com/ardhiqii/leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 ## Union Find
 |  |
 | ------- |
