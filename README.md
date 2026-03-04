@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ardhiqii/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/ardhiqii/leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/ardhiqii/leetcode/tree/master/0022-generate-parentheses) |
+| [0038-count-and-say](https://github.com/ardhiqii/leetcode/tree/master/0038-count-and-say) |
 | [0067-add-binary](https://github.com/ardhiqii/leetcode/tree/master/0067-add-binary) |
 | [0257-binary-tree-paths](https://github.com/ardhiqii/leetcode/tree/master/0257-binary-tree-paths) |
 | [0572-subtree-of-another-tree](https://github.com/ardhiqii/leetcode/tree/master/0572-subtree-of-another-tree) |
