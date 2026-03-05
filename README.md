@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/ardhiqii/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0833-find-and-replace-in-string](https://github.com/ardhiqii/leetcode/tree/master/0833-find-and-replace-in-string) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/ardhiqii/leetcode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
+| [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/ardhiqii/leetcode/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/ardhiqii/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Hash Function
 |  |
