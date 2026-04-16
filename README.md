@@ -254,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0067-add-binary](https://github.com/ardhiqii/leetcode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/ardhiqii/leetcode/tree/master/0078-subsets) |
+| [0338-counting-bits](https://github.com/ardhiqii/leetcode/tree/master/0338-counting-bits) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/ardhiqii/leetcode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 ## Dynamic Programming
 |  |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/ardhiqii/leetcode/tree/master/0070-climbing-stairs) |
 | [0119-pascals-triangle-ii](https://github.com/ardhiqii/leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ardhiqii/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0338-counting-bits](https://github.com/ardhiqii/leetcode/tree/master/0338-counting-bits) |
 | [1025-divisor-game](https://github.com/ardhiqii/leetcode/tree/master/1025-divisor-game) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/ardhiqii/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Greedy
