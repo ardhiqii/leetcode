@@ -14,6 +14,7 @@ class Solution {
             if(pq.size() > k) pq.poll();
         }
         for(Map.Entry<Integer,Integer> m : hm.entrySet()){
+            if(i==k)break;
             if(pq.contains(m.getValue())){
                 ans[i] = m.getKey();
                 i++;
